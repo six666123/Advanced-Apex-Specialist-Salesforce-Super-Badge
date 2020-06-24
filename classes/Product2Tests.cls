@@ -41,7 +41,7 @@ private class Product2Tests {
         newProduct.IsActive = true;
         newProduct.Quantity_Ordered__c = 5;
         newProduct.Initial_Inventory__c = 10;
-        insert newProductp;
+        insert newProduct;
         
         CollaborationGroup c = new CollaborationGroup();
         c.Name = 'TEST' + Constants.INVENTORY_ANNOUNCEMENTS;
